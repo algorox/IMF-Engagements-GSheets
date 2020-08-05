@@ -5,7 +5,7 @@ function total(row) {
   
   if(row != null) {
     
-    startingColumn = 4
+    startingColumn = 5
     numberOfRows = 1
     numberOfColumns = 20
     resultsCounter = 0;
@@ -204,12 +204,12 @@ function focus(row) {
   
   //Arguments: row, startingColumn, numberOfRows, numberOfColumns, string, threshold
   
-  enduserExperience = findCapabiltyFocus(row, 4, 1, 4, 'End-user Experience, ', 12)
-  security = findCapabiltyFocus(row, 8, 1, 3, 'Security, ', 7)
-  operability = findCapabiltyFocus(row, 11, 1, 3, 'Operability, ', 7)
-  strategy = findCapabiltyFocus(row, 14, 1, 3, 'Strategy, ', 7)
-  adminEx = findCapabiltyFocus(row, 17, 1, 4, 'AdminEx, ', 12)
-  devEx = findCapabiltyFocus(row, 21, 1, 3, 'DevEx, ', 7)
+  enduserExperience = findCapabiltyFocus(row, 5, 1, 4, 'End-user Experience, ', 14)
+  security = findCapabiltyFocus(row, 9, 1, 3, 'Security, ', 10)
+  operability = findCapabiltyFocus(row, 12, 1, 3, 'Operability, ', 10)
+  strategy = findCapabiltyFocus(row, 15, 1, 3, 'Strategy, ', 10)
+  adminEx = findCapabiltyFocus(row, 18, 1, 4, 'AdminEx, ', 14)
+  devEx = findCapabiltyFocus(row, 22, 1, 3, 'DevEx, ', 10)
 
 
   outcome = enduserExperience + security + operability + strategy + adminEx + devEx;
